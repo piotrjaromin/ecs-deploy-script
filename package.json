@@ -1,0 +1,22 @@
+{
+  "name": "ecs-deploy-script",
+  "version": "1.0.0",
+  "description": "NodeJs script used to update docker image in task definition and trigger deploy",
+  "main": "deploy.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --fix --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "piotrjaromin",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.428.0",
+    "commander": "^2.19.0",
+    "simple-node-logger": "^18.12.22"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-google": "^0.12.0"
+  }
+}

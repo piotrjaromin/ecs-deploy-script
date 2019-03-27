@@ -21,9 +21,6 @@ const {
     serviceName,
 } = parseCmdArgs();
 
-
-const ecs = new ECS({apiVersion: '2014-11-13'});
-
 logger.debug(`selected command: ${cmd}`);
 const cmdAction = cmdActions[cmd];
 if (!cmdAction) {
@@ -31,5 +28,5 @@ if (!cmdAction) {
     process.exit(1);
 }
 
-cmdAction(logger, ecs, clusterName, serviceName, image);
+cmdAction(logger, clusterName, serviceName, image);
 

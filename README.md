@@ -1,4 +1,4 @@
-# ECS Deploy script
+# ECS.JS Deploy script
 
 Script updates docker image in task definition, it searches given cluster for service, and then updates task definition associated with it, at the end it triggers deployment through code deploy.
 

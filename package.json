@@ -1,8 +1,8 @@
 {
-  "name": "ecs.js",
-  "version": "1.0.0",
+  "name": "@pjaromin/ecs.js",
+  "version": "1.0.1",
   "description": "NodeJs script used to update docker image in task definition and trigger deploy",
-  "main": "deploy.js",
+  "main": "ecs.js",
   "scripts": {
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --fix --ext .js",
@@ -18,5 +18,8 @@
   "devDependencies": {
     "eslint": "^5.15.3",
     "eslint-config-google": "^0.12.0"
-  }
+  },
+  "keywords": [
+    "ecs", "codedeploy", "deployment", "aws", "blue-green"
+  ]
 }

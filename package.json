@@ -21,6 +21,10 @@
     "eslint-config-google": "^0.12.0"
   },
   "keywords": [
-    "ecs", "codedeploy", "deployment", "aws", "blue-green"
+    "ecs",
+    "codedeploy",
+    "deployment",
+    "aws",
+    "blue-green"
   ]
 }

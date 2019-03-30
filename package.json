@@ -1,8 +1,9 @@
 {
   "name": "@pjaromin/ecs.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NodeJs script used to update docker image in task definition and trigger deploy",
   "main": "ecs.js",
+  "bin": "ecs.js",
   "scripts": {
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --fix --ext .js",

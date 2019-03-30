@@ -1,5 +1,5 @@
 {
-  "name": "ecs-deploy-script",
+  "name": "ecs.js",
   "version": "1.0.0",
   "description": "NodeJs script used to update docker image in task definition and trigger deploy",
   "main": "deploy.js",

@@ -9,11 +9,13 @@ const {processCmdAction} = require('./lib/cli/cli');
 const {deploy} = require('./lib/commands/deploy');
 const {continueDeploy} = require('./lib/commands/continue-deploy');
 const {rollbackDeploy} = require('./lib/commands/rollback-deploy');
+const {listDeploys} = require('./lib/commands/list-deploys');
 
 const cmdActions = {
-    'deploy': deploy,
-    'continueDeploy': continueDeploy,
-    'rollbackDeploy': rollbackDeploy,
+    deploy,
+    continueDeploy,
+    rollbackDeploy,
+    listDeploys,
 };
 
 processCmdAction(logger, cmdActions);
